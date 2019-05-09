@@ -23,7 +23,7 @@
  * Author:  Siarhei Siamashka (siarhei.siamashka@nokia.com)
  */
 
-#if defined(__ARM_NEON__)
+#if defined(__xARM_NEON__)
 
 /*
  * This file contains implementations of NEON optimized pixel processing

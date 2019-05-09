@@ -376,7 +376,7 @@ void Surface::setDrawRegion(size_t x, size_t y, size_t width, size_t height)
 #ifdef LOTTIE_LOGGING_SUPPORT
 void initLogging()
 {
-#if defined(__ARM_NEON__)
+#if defined(__xARM_NEON__)
     set_log_level(LogLevel::OFF);
 #else
     initialize(GuaranteedLogger(), "/tmp/", "rlottie", 1);
